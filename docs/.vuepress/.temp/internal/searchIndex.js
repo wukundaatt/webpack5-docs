@@ -697,41 +697,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "学习资料",
-    "headers": [],
-    "path": "/intro/asset.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "适合群体",
-    "headers": [],
-    "path": "/intro/group.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "我能学到什么",
-    "headers": [],
-    "path": "/intro/learn.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "前置知识",
-    "headers": [],
-    "path": "/intro/pre.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "依赖环境",
-    "headers": [],
-    "path": "/intro/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "Loader 原理",
     "headers": [
       {
@@ -961,6 +926,41 @@ export const searchIndex = [
     "title": "总结",
     "headers": [],
     "path": "/origin/summary.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "学习资料",
+    "headers": [],
+    "path": "/intro/asset.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "适合群体",
+    "headers": [],
+    "path": "/intro/group.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "我能学到什么",
+    "headers": [],
+    "path": "/intro/learn.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "前置知识",
+    "headers": [],
+    "path": "/intro/pre.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "依赖环境",
+    "headers": [],
+    "path": "/intro/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1458,16 +1458,3 @@ export const searchIndex = [
     "extraFields": []
   }
 ]
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
-    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ searchIndex }) => {
-    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
-  })
-}
